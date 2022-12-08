@@ -20,6 +20,15 @@ I first tried to **code the entire programme from scratch**, which proved to be 
 I hosted my programme in both GitHub Pages and Netlify
 
 3) CI/CD stuff, I guess
+I copied the basic CI workflow template for Node.js projects from GitHub, but it failed due to exit code 254, as below:
+![image](https://user-images.githubusercontent.com/116928781/206542988-3b3bdae7-ed36-4990-bf78-1ba384d49bf0.png)
+
+Looking at the error, it was due to the lack of the package.json , which my project wasn't using. 
+![image](https://user-images.githubusercontent.com/116928781/206543153-1a25e515-8f3d-4388-8cc3-c673162ddc67.png)
+
+A quick Google search showed that I didn't need to install and test for npm, so I commented out those lines of code, and it worked fine
+![image](https://user-images.githubusercontent.com/116928781/206543585-f76fd72d-73e5-4b25-bc82-90f39041d565.png)
+
 
 ______________________________________________________________________________________________________________________________________________________
 

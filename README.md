@@ -26,9 +26,11 @@ I copied the basic CI workflow template for Node.js projects from GitHub, but it
 Looking at the error, it was due to the lack of the package.json , which my project wasn't using. 
 ![image](https://user-images.githubusercontent.com/116928781/206543153-1a25e515-8f3d-4388-8cc3-c673162ddc67.png)
 
-A quick Google search showed that I didn't need to install and test for npm, so I commented out those lines of code, and it worked fine
+A quick Google search showed that I didn't need to install and test for npm, so I commented out those lines of code.
 ![image](https://user-images.githubusercontent.com/116928781/206543585-f76fd72d-73e5-4b25-bc82-90f39041d565.png)
 
+And it worked fine after that!
+![image](https://user-images.githubusercontent.com/116928781/206543824-88a0ee3d-5b9e-4207-b556-ad556b91bdfe.png)
 
 ______________________________________________________________________________________________________________________________________________________
 

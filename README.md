@@ -1,6 +1,6 @@
 # NUS FinTech DevOps Course - CI/CD Show & Tell
 
-For this task, I've modified a simple guess-the-number/higher-or-lower project that I found interesting on Github, from Aanchal1201/NumberGuessing . 
+For this task, I've modified a simple guess-the-number/higher-or-lower project that I found interesting on Github, from **Aanchal1201/NumberGuessing** . 
 
 CI/CD pipeline
 

@@ -15,7 +15,7 @@ I first tried to **code the entire programme from scratch**, which proved to be 
 2) Web hosting </br>
 I hosted my programme in both GitHub Pages and Netlify
 
-3) CI/CD implementation </br>
+3a) CI/CD implementation - Auto-compiling and testing </br>
 I copied the basic CI workflow template for Node.js projects from GitHub, but it failed due to exit code 254, as below:
 ![image](https://user-images.githubusercontent.com/116928781/206542988-3b3bdae7-ed36-4990-bf78-1ba384d49bf0.png)
 
@@ -27,6 +27,14 @@ A quick Google search showed that I didn't need to install and test for npm, so 
 
 And it worked fine after that!
 ![image](https://user-images.githubusercontent.com/116928781/206543824-88a0ee3d-5b9e-4207-b556-ad556b91bdfe.png)
+
+3b) CI/CD implementation - Telegram message when commits are made to this GitHub repo </br>
+Following this guide (https://github.com/marketplace/actions/telegram-notify), I created a Telegram bot (@MitraGithubAction_bot), using that TELEGRAM_TOKEN and my personal Telegram Chat ID for the TELEGRAM_TO, as the secrets for this action. 
+
+![image](https://user-images.githubusercontent.com/116928781/206648103-ef5424aa-dd48-407a-a08a-fa81ec90ae0c.png)
+
+Successful implementation:
+![image](https://user-images.githubusercontent.com/116928781/206648195-d280f667-ddc6-44f2-9044-b3024daf619b.png)
 
 ______________________________________________________________________________________________________________________________________________________
 

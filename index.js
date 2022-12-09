@@ -12,9 +12,10 @@ let list = document.getElementById("list");
 let result = document.getElementById("result");
 let st = document.getElementById("st");
 let remaining = document.getElementById("remaining");
+let guess_lowerbound = document.getElementById("guess_lowerbound");
+let guess_upperbound = document.getElementById("guess_upperbound");
 
-
-let guess, left, noOfGuess, guess_lowerbound, guess_upperbound;
+let guess, left, noOfGuess;
 
 //generate random number
 function randomNumber(min, max) {

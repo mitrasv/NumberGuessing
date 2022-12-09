@@ -13,7 +13,7 @@ Link: https://mitrahigherlower.netlify.app/
 I first tried to **code the entire programme from scratch**, which proved to be (obviously) very time-consuming, and not feasible to complete within a few days at my current skill level. Hence, I decided to piggyback off of others' code for the same programme, which showed me how unoriginal my idea was. I spent some time working on a forked version of cmlohr/flask_higher_lower, which used **Flask, a micro web framework** which should have allowed me to publish a static page directly from GitHub Pages or Netlify without need for a backend to be hosted. However, I could not get it to run on either despite troubleshooting, so I instead opted for a JS + HTML + CSS one I was more familiar with. 
 
 2) Web hosting </br>
-I hosted my programme in both GitHub Pages and Netlify
+I hosted my programme in both GitHub Pages (https://mitrasv.github.io/NumberGuessing/) and Netlify (https://mitrahigherlower.netlify.app/) . Both are simple and fuss-free for a small project like this.
 
 3a) CI/CD implementation - Auto-compiling and testing </br>
 I copied the basic CI workflow template for Node.js projects from GitHub, but it failed due to exit code 254, as below:
@@ -37,7 +37,3 @@ Successful implementation:
 ![image](https://user-images.githubusercontent.com/116928781/206648395-1b7939fe-ddf5-4761-b018-b1124ae75021.png)
 
 ______________________________________________________________________________________________________________________________________________________
-
-
-Project requirements: (to remove)
-![image](https://user-images.githubusercontent.com/116928781/206533948-3b2380d6-ea1b-4d92-a0ec-3a6ea4d1c68e.png)

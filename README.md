@@ -5,8 +5,7 @@
 
 For this task, I've modified a simple guess-the-number/higher-or-lower project that I found interesting on Github, from **Aanchal1201/NumberGuessing** . </br>
 Link: https://mitrahigherlower.netlify.app/
-
-
+In this project, the user can choose between 3 difficulty modes, and then has a fixed number of attempts to guess the randomly-generated number. It uses a JavaScript file for the number checking logic, a single HTML page, and a CSS file for aesthetics of the site. 
 
 ## Learnings:
 1) Time management + Flask </br>

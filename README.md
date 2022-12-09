@@ -34,7 +34,7 @@ Following this guide (https://github.com/marketplace/actions/telegram-notify), I
 ![image](https://user-images.githubusercontent.com/116928781/206648103-ef5424aa-dd48-407a-a08a-fa81ec90ae0c.png)
 
 Successful implementation:
-![image](https://user-images.githubusercontent.com/116928781/206648195-d280f667-ddc6-44f2-9044-b3024daf619b.png)
+![image](https://user-images.githubusercontent.com/116928781/206648395-1b7939fe-ddf5-4761-b018-b1124ae75021.png)
 
 ______________________________________________________________________________________________________________________________________________________
 

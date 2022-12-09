@@ -3,10 +3,8 @@
 ## Standard CI/CD pipeline </br>
 ![image](https://user-images.githubusercontent.com/116928781/206625888-4353aeed-ede0-44a1-8033-4f7577989a9e.png)
 
-For this task, I've modified a simple guess-the-number/higher-or-lower project that I found interesting on Github, from **Aanchal1201/NumberGuessing** . 
-
-
-
+For this task, I've modified a simple guess-the-number/higher-or-lower project that I found interesting on Github, from **Aanchal1201/NumberGuessing** . </br>
+Link: https://mitrahigherlower.netlify.app/
 
 
 

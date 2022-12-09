@@ -53,11 +53,11 @@ function play() {
     alert("Please enter some value");
   } else if (left < 1) {
     msg.innerHTML = "";
-    result.innerHTML = "Better luck next time!!";
-    alert(`You lose the game, number is: ${guess}`);
+    result.innerHTML = "Better luck next time :(";
+    alert(`You didn't manage to guess it, the number is: ${guess}`);
     success();
   } else if (num.value < 1 || num.value > maximum) {
-    alert(`You must enter value between 1 and ${maximum}`);
+    alert(`You must enter a value between 1 and ${maximum}`);
     add();
   } else if (num.value > guess && left > 0) {
     msg.innerHTML = "Go Lower";
@@ -69,9 +69,9 @@ function play() {
     add();
   } else if (num.value == guess) {
     result.innerHTML = "Congratulations";
-    msg.innerHTML = "you guessed";
+    msg.innerHTML = "You guessed it!";
     add();
-    msg.innerHTML = `You guess the number ${guess} <br/>And you exactly take ${Number(
+    msg.innerHTML = `You guessed the number ${guess} <br/> And you took only ${Number(
       noOfGuess - left
     )} ${plural(Number(noOfGuess - left))} `;
     success();

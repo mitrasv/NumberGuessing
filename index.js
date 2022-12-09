@@ -13,7 +13,8 @@ let result = document.getElementById("result");
 let st = document.getElementById("st");
 let remaining = document.getElementById("remaining");
 
-let guess, left, noOfGuess;
+
+let guess, left, noOfGuess, guess_lowerbound, guess_upperbound;
 
 //generate random number
 function randomNumber(min, max) {
@@ -59,9 +60,11 @@ function play() {
     add();
   } else if (num.value > guess && left > 0) {
     msg.innerHTML = "Go Lower";
+    guess_upperbound = num.value;
     add();
   } else if (num.value < guess && left > 0) {
     msg.innerHTML = "Go Higher";
+    guess_lowerbound = num.value;
     add();
   } else if (num.value == guess) {
     result.innerHTML = "Congratulations";
@@ -118,3 +121,6 @@ num.addEventListener("keyup", function (e) {
     tri.click();
   }
 });
+
+
+// to add: if guess is smaller than number, guess_lower = num_value . else if 
